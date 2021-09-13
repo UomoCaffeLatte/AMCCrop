@@ -25,4 +25,5 @@ setup(
     url="https://github.com/UomoCaffeLatte/AMCCrop",
     author="Nikhil Reji",
     author_email="Nikhil.Reji@live.co.uk",
+    install_requires=["AsfAmc-Parser"]
 )
