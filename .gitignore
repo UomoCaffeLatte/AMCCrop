@@ -3,6 +3,9 @@
 *.amc 
 *.asf
 
+#vscode
+.vscode/
+
 # PYTHON
 # Byte-compiled / optimized / DLL files
 __pycache__/
