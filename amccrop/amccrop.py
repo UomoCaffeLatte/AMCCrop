@@ -1,7 +1,6 @@
 from typing import Tuple
 from pathlib import Path
 
-
 def CheckArgs(args:dict, amc) -> bool:
     # check output filename != input filename
     if args["input"] == args["output"]: raise ValueError("Output filename same as input. Cannot override original file.")
@@ -33,5 +32,6 @@ def parseToAmc(frames:Tuple[dict,...]) -> str:
 def SaveAmc(filename:str, file:str):
     with open(f"{filename}.amc","w") as f:
         f.write(file)
+
 
 
